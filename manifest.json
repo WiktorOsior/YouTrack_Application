@@ -1,0 +1,22 @@
+{
+  "name": "test-managment-panel",
+  "title": "Test Managment Panel",
+  "description": "Wiktor Osior&#39;s Test Managment Panel youtrack application",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "Wiktor Osior",
+    "url": "https://github.com/WiktorOsior"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "test-managment-panel-widget",
+      "name": "Test Managment Panel Widget",
+      "indexPath": "test-managment-panel-widget/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "test-managment-panel-widget/widget-icon.svg",
+      "description": "Test Managment Panel"
+    }
+  ]
+}
