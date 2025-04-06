@@ -49,7 +49,9 @@ export default tseslint.config(
           allowConstantExport: true,
         },
       ],
-      "react/jsx-no-literals": "off"
+      "react/jsx-no-literals": "off",
+      ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
+      ignoreComments: false
     }
   },
   {
